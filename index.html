@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Все графики на одной странице">
+	<meta property="og:site_name" content="Posovetuy!">
+	<meta property="og:url" content="https://usd.posovetuy.com/">
+	<meta property="og:description" content="Posovetuy! - самая наглядная информация">
+	<meta property="og:image" content="https://posovetuy.com/wp-content/uploads/2020/02/LOGO-kr-150.png">
+	<title>USD</title>
+	<link rel="icon" href="https://posovetuy.com/wp-content/uploads/2020/02/LOGO-kr-150.png">
+	<style>
+		   .tradingview-container {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+      }
+      .tradingview-widget-container {
+        margin-right: 0px;
+      }
+
+	</style>
+</head>
+
+<body>
+	<div class="tradingview-container">
+		<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+		<script type="text/javascript">
+			const commonParams = {
+				"height": 200,
+				"width": 340,
+				"timezone": "Europe/Moscow",
+				"theme": "light",
+				"style": "1",
+				"locale": "ru",
+				"toolbar_bg": "#f1f3f6",
+				"enable_publishing": false,
+				"hide_legend": true,
+				"allow_symbol_change": true,
+				"save_image": false
+			};
+
+			new TradingView.widget({
+				"symbol": "FX_IDC:USDRUB",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "FX_IDC:USDRUB",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "FX_IDC:USDRUB",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "TVC:UKOIL",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "TVC:UKOIL",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "TVC:UKOIL",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:V",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:V",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:V",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DAL",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DAL",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DAL",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BA",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BA",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BA",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BAC",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BAC",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:BAC",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DIS",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DIS",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:DIS",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AAPL",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AAPL",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AAPL",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:MSFT",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:MSFT",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:MSFT",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:GOOG",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:GOOG",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:GOOG",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:NDAQ",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:NDAQ",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:NDAQ",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AMD",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AMD",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:AMD",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:TSLA",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:TSLA",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NASDAQ:TSLA",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:PINS",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:PINS",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:PINS",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:JNJ",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:JNJ",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:JNJ",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:KOF",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:KOF",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:KOF",
+				"interval": "60",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:MCD",
+				"interval": "1",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:MCD",
+				"interval": "30",
+				...commonParams,
+			});
+
+			new TradingView.widget({
+				"symbol": "NYSE:MCD",
+				"interval": "60",
+				...commonParams,
+			});
+		</script>
+	</div>
+	<footer>
+		<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/widget/advanced-chart"
+				rel="noopener" target="_blank"><span class="blue-text">Tradingview.com/widget/advanced-chart</span></a>
+			by TradingView</div>
+	</footer>
+</body>
+
+
+</html>
